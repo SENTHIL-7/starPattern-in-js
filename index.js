@@ -1,9 +1,3 @@
-// const globe = require("./one");
-// globe.func();
-
-// const glo = require('./ser');
-// glo.sen();
-
 const readline =require('readline');
 
 const rl = readline.createInterface({
@@ -11,7 +5,7 @@ const rl = readline.createInterface({
     output: process.stdout
     });
 
-rl.question('no row ?',(row)=>{
+rl.question('Number of rows ? ',(row)=>{
    
 
     for(i=0;i<row;i++){
@@ -26,5 +20,13 @@ rl.question('no row ?',(row)=>{
       
  });
 
- 
+//sample output
 
+/*
+Number of rows ? 5
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+*/
